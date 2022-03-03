@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-image: url("Desktop.png");
+	
+}
+.content {
+	
+	height:4620px;
+
+
+}
+.menu {
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	width:100%;
+	padding-top: 60px;
+	height:1%;
+	width:90%;
+	background: rgb(198,221,239, 0.2);
+	margin:0 auto
+
+}
+
+.MNTN {
+	  font-family: 'Palatino';
+	  letter-spacing: 1px;
+	
+}
+.menu_cent{
+
+	width:20%;
+	display: flex;
+	justify-content: space-between;
+    font-family: 'Gilroy';
+	
+	
+
+}
+.reg { 
+
+	display: flex;
+	justify-content: flex-start;
+	
+}
+.acc {
+	padding-left: 5px;
+	padding-top: 5px;
+	font-family: 'Gilroy';
+
+
+}
+.block2 {
+	width:50%;
+	height:16.5%;
+	display: flex;
+	Flex-direction: column;
+	justify-content: center;
+	background: rgb(112,64,13, 0.2);
+	margin:0 auto
+
+}
+
+.yellowtext_b2 {
+	font-family: 'Gilroy';
+	color: #FBD784;
+	font-size: 23px;
+	letter-spacing: 3px;
+	
+	
+}
+.whitebtext_b2 {
+	font-family: 'Palatino';
+	font-size: 63px;	
+	color: white;
+	
+}
+.scroll_text{
+	font-family: 'Gilroy';
+	color: white;
+	font-size: 23px;
+	padding-top: 40px;
+}
+.block3{
+	width:50%;
+	height:20%;	
+
+	padding-top: 290px;
+
+	display:flex;
+	flex-direction: column;
+	position: relative;
+	background: rgb(234,9,123, 0.2);
+}
+
+
+.text01{
+
+	font-family: 'Gilroy';
+	font-size:140px;
+	color:	#FFFFFF;
+	opacity:0.3;
+	position: absolute;
+	top:21%;
+}
+.start {
+	font-family: 'Gilroy';
+	color: #FBD784;
+	font-size: 18px;
+	
+}
+
+.level {
+	font-family: 'Palatino';
+	font-size: 40px;
+	padding-top:9px;
+}
+.dreaming{
+	font-family: 'Gilroy';
+	line-height: 11.5px;
+	font-size: 15px;	
+	padding-top:14px;
+}
+.read{
+	font-family: 'Gilroy';
+	color: #FBD784;
+	padding-top:14px;
+	font-size: 16px;
+}
+.flexblock1{
+	display:flex;
+	justify-content: space-between;
+	
+	
+}
+@font-face {
+    font-family: 'Palatino';
+    src: local('fonts/Palatino Bold'), local('Palatino-Bold'),
+        url('fonts/Palatino-Bold.woff2') format('woff2'),
+        url('fonts/Palatino-Bold.woff') format('woff'),
+        url('fonts/Palatino-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('fonts/Gilroy-Medium.woff') format('woff'),
+        url('fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
